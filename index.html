@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing-page</title>
@@ -9,14 +10,14 @@
 <body>
     <header>
         <nav>
-            <div class="logo">Header Logo</div>
-            <div>
-                <ul>
-                    <li> <a href="">header link one</a></li>
-                    <li><a href="">header link two</a></li>
-                    <li><a href="">header link three</a></li>
-                </ul>
+            <div class="logo">
+                Header Logo
             </div>
+            <ul class="navigation-links">
+                <li> <a href="" class="nav">header link one</a></li>
+                <li><a href="" class="nav">header link two</a></li>
+                <li><a href="" class="nav">header link three</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -25,10 +26,11 @@
 
             <div class="left-main">
                 <h1>This website is awesome</h1>
-                <h3>This website has some subtext that goes here under
+                <p>This website has some subtext that goes here under
                     the main title. It's smaller font and the color is 
                     lower contrast
-                </h3>
+                </p>
+                <button>Sign up</button>
             </div>
 
             <div class="right-main">
@@ -38,37 +40,50 @@
         </section>
 
         <article class="container">
-            <div class="content">
-                <img src="" alt="">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class="content">
-                <img src="" alt="">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class="content">
-                <img src="" alt="">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class="content">
-                <img src="" alt="">
-                <p>this is some subtext under an illustration or image</p>
+            <div class="container-text">Some random information</div>
+            <div class="sub-container">
+                <div class="content">
+                    <img src="" alt="" class="content-img">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="content">
+                    <img src="" alt="" class="content-img">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="content">
+                    <img src="" alt="" class="content-img">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="content">
+                    <img src="" alt="" class="content-img">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
             </div>
         </article>
 
         <article class="quote">
-            <p>
-                <i>This is an ispiring quote, or a testimonial from a customer.
-                Maybe it's just filling up space, or maybe people will actually read
-                it. Who knows? All i know is that it looks nice.</i>
-            </p>
-            <p><strong>-Thor, God of Thunder</strong></p>
+                <div class="quote-text">
+                    <p>
+                        This is an ispiring quote, or a testimonial from a customer.
+                        Maybe it's just filling up space, or maybe people will actually read
+                        it. Who knows? All i know is that it looks nice.
+                    </p>
+                </div>
+                
+                <div class="quote-author">
+                    <p>-Thor, God of Thunder</p>
+                </div>
+                
         </article>
 
         <section class="sign-up-section">
-            <h2><strong>Call to action! It's time!</strong></h2>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
+            <div class="sign-up-box">
+                <div class="text-box">
+                    <h2><strong>Call to action! It's time!</strong></h2>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button>Sign up</button>
+            </div>
         </section>
 
     </main>
